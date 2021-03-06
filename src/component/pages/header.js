@@ -14,7 +14,7 @@ export default function AppHeader() {
         <div className='container-fluid'>
             <div className='header'>
                 <div className="logo" >
-                    <a href='/'>
+                    <a href='/webresume/'>
                         <img src="https://i.ibb.co/QKTMCJF/Logo-Makr-5-Tz-Q4-C.png" style={{ maxWidth: '70%' }} alt="logo" border="0" />
                     </a>
                 </div>
