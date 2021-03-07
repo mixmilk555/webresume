@@ -209,17 +209,17 @@ hero
   /* background-color: blue; */
 }
 
-.heroBlock .container-fluid h2 {
+.heroBlock .container-fluid p {
   position: relative;
   font-size: 1.5em;
-  color: #f3f3f7fa;
+  color: #dcdce4fa;
   -webkit-text-stroke: 0.1vw #f3f3f7fa;
   text-transform: uppercase;
-  width: 110%;
+  width: 100%;
   /* background-color: red; */
 }
 
-.heroBlock .container-fluid h2::before {
+.heroBlock .container-fluid p::before {
   content: attr(data-text);
   position: absolute;
   top: 0;
@@ -379,5 +379,16 @@ responsive
   }
   .mobileHidden {
     display: none;
+  }
+  
+}
+@media only screen and (max-width: 576px){
+  .heroBlock .container-fluid p {
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 480px){
+  .heroBlock .container-fluid p {
+    font-size: 0.7em;
   }
 }
